@@ -1,0 +1,26 @@
+pred_file:
+  class: File
+  path: ../testfiles/ridge_pred_fixed.list
+loco_files:
+- {class: File, path: ../testfiles/ridge_1.loco}
+- {class: File, path: ../testfiles/ridge_2.loco}
+bed_step2:
+  class: File
+  path: ../testfiles/example.bed
+bim_step2:
+  class: File
+  path: ../testfiles/example.bim
+fam_step2:
+  class: File
+  path: ../testfiles/example.fam
+phenoFile:
+  class: File
+  path: ../testfiles/phenotypes.txt
+phenoColList: Y1,Y2
+covarFile:
+  class: File
+  path: ../testfiles/covariates.txt
+covarColList: V1,V2
+file_index:
+  class: File
+  path: ../testfiles/example.bed

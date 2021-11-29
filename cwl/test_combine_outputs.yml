@@ -1,0 +1,9 @@
+output_files:
+- {class: File, path: ../testfiles/example_Y1.regenie}
+- {class: File, path: ../testfiles/example_Y2.regenie}
+- {class: File, path: ../testfiles/example_Y1.regenie_2}
+- {class: File, path: ../testfiles/example_Y2.regenie_2}
+output_files_2:
+- [{class: File, path: ../testfiles/example_Y1.regenie}, {class: File, path: ../testfiles/example_Y1.regenie}]
+- [{class: File, path: ../testfiles/example_Y1.regenie_2}, {class: File, path: ../testfiles/example_Y1.regenie_2}]
+phenoColList: Y1,Y2

@@ -1,0 +1,3 @@
+nested_array:
+- [{class: File, path: ../testfiles/example_Y1.regenie}, {class: File, path: ../testfiles/example_Y1.regenie}]
+- [{class: File, path: ../testfiles/example_Y1.regenie_2}, {class: File, path: ../testfiles/example_Y1.regenie_2}]

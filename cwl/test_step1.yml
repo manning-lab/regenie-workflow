@@ -1,0 +1,11 @@
+bgen_step1:
+  class: File
+  path: ../testfiles/example_3chr.bgen
+phenoFile:
+  class: File
+  path: ../testfiles/phenotypes.txt
+phenoColList: Y1,Y2
+covarFile:
+  class: File
+  path: ../testfiles/covariates.txt
+covarColList: V1,V2

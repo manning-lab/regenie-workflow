@@ -1,0 +1,1 @@
+testfiles/example.bed	testfiles/example.bim	testfiles/example.fam	1

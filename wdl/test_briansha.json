@@ -1,0 +1,11 @@
+{
+  "Regenie.bgen_step1": "testfiles/example_3chr.bgen",
+  "Regenie.bed_files_step_2": "testfiles/example_bed.tsv",
+  "Regenie.fit_bin_out": "sampleid",
+  "Regenie.phenoFile": "testfiles/phenotype.txt",
+  "Regenie.phenoColList": "Y1",
+  "Regenie.covarFile": "testfiles/covariates.txt",
+  "Regenie.covarColList": "V1,V2",
+  "Regenie.chr_list": [1],
+  "Regenie.phenotype_names": ["Y1"]
+}

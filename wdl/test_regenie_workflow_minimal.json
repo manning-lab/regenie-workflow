@@ -1,0 +1,10 @@
+{
+  "Regenie.bgen_step1": "../testfiles/example_3chr.bgen",
+  "Regenie.bed_step2": ["../testfiles/example.bed","../testfiles/example.bed"],
+  "Regenie.bim_step2": ["../testfiles/example.bim","../testfiles/example.bim"],
+  "Regenie.fam_step2": ["../testfiles/example.fam","../testfiles/example.fam"],
+  "Regenie.phenoFile": "../testfiles/phenotypes.txt",
+  "Regenie.phenoColList": "Y1,Y2",
+  "Regenie.covarFile": "../testfiles/covariates.txt",
+  "Regenie.covarColList": "V1,V2"
+}

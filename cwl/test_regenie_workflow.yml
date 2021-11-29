@@ -1,0 +1,20 @@
+bgen_step1:
+  class: File
+  path: ../testfiles/example_3chr.bgen
+bed_step2:
+- {class: File, path: ../testfiles/example.bed}
+- {class: File, path: ../testfiles/example2.bed}
+bim_step2:
+- {class: File, path: ../testfiles/example.bim}
+- {class: File, path: ../testfiles/example2.bim}
+fam_step2:
+- {class: File, path: ../testfiles/example.fam}
+- {class: File, path: ../testfiles/example2.fam}
+phenoFile:
+  class: File
+  path: ../testfiles/phenotypes.txt
+phenoColList: Y1,Y2
+covarFile:
+  class: File
+  path: ../testfiles/covariates.txt
+covarColList: V1,V2
